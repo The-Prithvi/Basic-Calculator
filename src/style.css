@@ -1,0 +1,70 @@
+*{
+    background: rgb(149, 181, 187);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+#main{
+    background: rgba(255, 255, 255, 0.767);
+    margin: 10px auto;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:column ; */
+    width: 4in;
+    height: 5in;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.329);
+}
+#screen{
+    height: 0.7in;
+    width: 4in;
+    background: rgb(255, 249, 212);
+    margin: 0 auto;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.329);
+    color: black;
+    font-size: 0.45in;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+.bt1{
+    background: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.35in;
+    width: 0.957in;
+    height: 0.9581in;
+    margin: 2px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.329);
+}
+.bt1:hover{
+    background: rgba(39, 39, 39, 0.863);
+}
+
+@media (max-width:480px){
+
+    #main{
+        width: 3.37in;
+        height: 5in;
+    }
+    #screen{
+        height: 0.5in;
+        width: 3.36in;
+        margin-top: 0.7in;
+        padding-top:0;
+        font-size: 0.3in;
+    }
+    .bt1{
+        font-size: 0.33in;
+        width: 0.8in;
+        height: 0.95in;
+    }
+    .bt1:hover{
+        background: rgb(39, 39, 39);
+    }
+}
